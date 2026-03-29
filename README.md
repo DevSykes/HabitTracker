@@ -1,9 +1,18 @@
 # HabitTracker
+### Proyecto Intermodular de 1º DAM
 
-### Proyecto Intermodular de 1º - DAM
-Este repositorio contiene el desarrollo integral de una aplicación de gestión de hábitos, unificando los conocimientos técnicos del primer curso.
+Aplicación para la gestión y seguimiento de hábitos diarios desarrollada como proyecto integrador de primer curso.
+
+##  Estado del Proyecto
+Actualmente en **Fase 1: Definición y Diseño**.
+Este repositorio recogerá la evolución del proyecto entre marzo y mayo de 2026.
+
+## 🛠️ Módulos Integrados
+* **Programación / MPO:** Lógica en Java y JDBC.
+* **Bases de Datos:** Diseño relacional y SQL.
+* **Lenguajes de Marcas:** Validación XML/XSD.
+* **Sistemas Informáticos:** Documentación de entorno.
+* **Entornos de Desarrollo:** Gestión con Git/GitHub.
 
 ---
-
-## 📋 Descripción del Proyecto
-HabitTracker es una herramienta de escritorio diseñada para ayudar a los usuarios a monitorizar su progreso diario en diferentes metas.
+**Autor:** S.Z.
