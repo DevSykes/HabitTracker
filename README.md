@@ -21,6 +21,6 @@ El sistema utiliza una base de datos relacional con la siguiente estructura:
 * Hábitos: Define las metas de cada usuario.
 * Registros: Historial diario de cumplimiento.
 
-Puedes encontrar el script de creación en la carpeta /sql y el diagrama relacional en /docs.
+Puedes encontrar el diagrama relacional en /docs.
 ---
 **Autor:** S.Z.
