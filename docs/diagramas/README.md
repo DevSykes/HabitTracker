@@ -1,4 +1,4 @@
-# 📊 Diseño de la Base de Datos - Proyecto Prometeo
+# Diseño de la Base de Datos
 
 Este es el esquema que define cómo se guardan los datos de los usuarios y sus hábitos.
 
