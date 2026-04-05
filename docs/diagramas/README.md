@@ -2,14 +2,17 @@
 
 Este es el esquema que define cómo se guardan los datos de los usuarios y sus hábitos.
 
-## 1. Diagrama Entidad-Relación (E/R)
-A continuación se muestra el diseño visual de las tablas y sus conexiones:
+## 1. Diagramas del Proyecto
+A continuación se muestran los diseños visuales de la base de datos:
+### Diagrama Entidad-Relación (E/R)
+![Diagrama ER](diagrama_ER.png)
 
-![Mi Diagrama de Base de Datos](diagrama_ER.pdf)
+### Modelo Relacional (Esquema lógico)
+![Modelo Relacional](modelo_relacional.png)
 
 ---
 
-## 2. Modelo Relacional
+## 2. Descripción de Tablas
 Aquí detallamos las tablas y sus claves (PK = Clave Primaria, FK = Clave Foránea):
 
 *   **USUARIO** (**id_usuario**, nombre, email, password)
