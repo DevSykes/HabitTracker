@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-04-2026 a las 19:34:52
+-- Tiempo de generación: 05-04-2026 a las 20:38:27
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -34,6 +34,16 @@ CREATE TABLE `habito` (
   `id_usuario` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `habito`
+--
+
+INSERT INTO `habito` (`id_habito`, `nombre_habito`, `objetivo`, `id_usuario`) VALUES
+(0, 'Estudiar Bases de Datos', '30 minutos', 0),
+(1, 'Caminar', '8000 pasos', 1),
+(2, 'Beber agua', '2 litros', 2),
+(3, 'Leer', '10 páginas', 3);
+
 -- --------------------------------------------------------
 
 --
@@ -59,6 +69,16 @@ CREATE TABLE `usuario` (
   `email` varchar(100) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`id_usuario`, `nombre`, `email`, `password`) VALUES
+(0, 'Sara', 'sara@mail.com', '1234'),
+(1, 'Oliver', 'oliver@mail.com', '1234'),
+(2, 'Sabrina', 'sabrina@mail.com', '1234'),
+(3, 'Harry', 'harry@mail.com', '1234');
 
 --
 -- Índices para tablas volcadas
