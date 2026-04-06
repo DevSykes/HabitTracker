@@ -3,9 +3,12 @@
 HabitTracker es una aplicación diseñada para ayudar a los usuarios a monitorizar y mantener sus rutinas diarias. Este proyecto forma parte del Proyecto Intermodular de 1º de DAM.
 Este repositorio recogerá la evolución del proyecto entre marzo y mayo de 2026.
 
-##  Estado del Proyecto
-**Fase 1:** Definición y Diseño. (Finalizada)
-**Fase 2:** Implementación de Base de Datos (En proceso)
+## Estado del Proyecto
+
+*   **Fase 1: Definición y Diseño** (Finalizado)
+*   **Fase 2: Implementación de Base de Datos** (Finalizado)
+    * *Diseño E/R y Modelo Relacional completados.*
+*   **Fase 3: Desarrollo de la Lógica / Backend** (En proceso)
 
 ## Módulos Integrados
 * **Programación / MPO:** Lógica en Java y JDBC.
