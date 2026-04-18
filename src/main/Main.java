@@ -3,6 +3,9 @@ package main;
 import conector.ConectorBBDD;
 import java.util.Scanner;
 
+import controller.UsuarioController;
+import model.Usuario;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Iniciando aplicación...");
@@ -25,7 +28,11 @@ public class Main {
 
             switch (opcionStr) {
                 case "1":
-                    System.out.println("Entrando en gestión de usuarios...");
+                    System.out.println("Listado de usuarios en el sistema:");
+                    UsuarioController userController = new UsuarioController();
+                    for (Usuario u : userController.obtenerTodos()) {
+                        System.out.println(u);
+                    }
                     break;
                 case "2":
                     System.out.println("Entrando en hábitos...");
@@ -34,7 +41,7 @@ public class Main {
                     System.out.println("Registrando progreso...");
                     break;
                 case "4":
-                    System.out.println("Nos vemos");
+                    System.out.println("Hasta la próxima");
                     salir = true;
                     break;
                 default:
