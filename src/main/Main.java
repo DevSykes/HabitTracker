@@ -44,7 +44,23 @@ public class Main {
                     }
                     break;
                 case "3":
-                    System.out.println("Registrando progreso...");
+                    System.out.println("\n--- REGISTRAR NUEVO HÁBITO ---");
+                    System.out.print("Nombre del hábito: ");
+                    String nombre = sc.nextLine();
+
+                    System.out.print("Objetivo (ej: 30 min, 2 litros): ");
+                    String obj = sc.nextLine();
+
+                    System.out.print("ID de usuario (0, 1, 2...): ");
+                    int idUser = Integer.parseInt(sc.nextLine());
+
+                    Habito nuevo = new Habito();
+                    nuevo.setNombre(nombre);
+                    nuevo.setDescripcion(obj);
+                    nuevo.setIdUsuario(idUser);
+
+                    HabitoController hc = new HabitoController();
+                    hc.crearHabito(nuevo);
                     break;
                 case "4":
                     System.out.println("Hasta la próxima");
