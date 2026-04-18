@@ -14,10 +14,21 @@ public class ConectorBBDD {
         try {
             // Esto es lo que usa el .jar que acabamos de añadir
             conexion = DriverManager.getConnection(URL, USER, PASSWORD);
-            System.out.println("¡Conectado a la base de datos de Hábitos!");
+            System.out.println("Conectado a la base de datos de Hábitos");
         } catch (SQLException e) {
             System.out.println("Error al conectar: " + e.getMessage());
         }
         return conexion;
+    }
+    // cerrar la conexión
+    public static void cerrarConexion(Connection conexion) {
+        if (conexion != null) {
+            try {
+                conexion.close();
+                System.out.println(" Conexión cerrada.");
+            } catch (SQLException e) {
+                System.err.println("Error al cerrar: " + e.getMessage());
+            }
+        }
     }
 }
