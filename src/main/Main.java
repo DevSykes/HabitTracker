@@ -3,7 +3,9 @@ package main;
 import conector.ConectorBBDD;
 import java.util.Scanner;
 
+import controller.HabitoController;
 import controller.UsuarioController;
+import model.Habito;
 import model.Usuario;
 
 public class Main {
@@ -35,7 +37,11 @@ public class Main {
                     }
                     break;
                 case "2":
-                    System.out.println("Entrando en hábitos...");
+                    System.out.println("Listado de hábitos:");
+                    HabitoController habitoController = new HabitoController();
+                    for (Habito h : habitoController.obtenerTodos()) {
+                        System.out.println(h);
+                    }
                     break;
                 case "3":
                     System.out.println("Registrando progreso...");
