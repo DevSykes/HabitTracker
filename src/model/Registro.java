@@ -1,9 +1,5 @@
 package model;
 import java.time.LocalDate;
-
-public class Registro {
-}
-
 public class Registro {
     // atributos privados
     private int id;
