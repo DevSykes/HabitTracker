@@ -48,7 +48,7 @@ public class Main {
                     System.out.print("Nombre del hábito: ");
                     String nombre = sc.nextLine();
 
-                    System.out.print("Objetivo (ej: 30 min, 2 litros): ");
+                    System.out.print("Objetivo: ");
                     String obj = sc.nextLine();
 
                     System.out.print("ID de usuario (0, 1, 2...): ");
