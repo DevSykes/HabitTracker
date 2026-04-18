@@ -23,7 +23,8 @@ public class Main {
             System.out.println("1. Gestionar usuarios");
             System.out.println("2. Mis hábitos");
             System.out.println("3. Registrar progreso diario");
-            System.out.println("4. Salir");
+            System.out.println("4. Eliminar hábito");
+            System.out.println("5. Salir");
             System.out.print("Selecciona una opción: ");
 
             String opcionStr = sc.nextLine();
@@ -63,9 +64,18 @@ public class Main {
                     hc.crearHabito(nuevo);
                     break;
                 case "4":
+                    System.out.println("\n--- ELIMINAR HÁBITO ---");
+                    System.out.print("Introduce el ID del hábito que quieres borrar: ");
+                    int idBorrar = Integer.parseInt(sc.nextLine());
+
+                    HabitoController hcBorrar = new HabitoController();
+                    hcBorrar.eliminarHabito(idBorrar);
+                    break;
+                case "5":
                     System.out.println("Hasta la próxima");
                     salir = true;
                     break;
+
                 default:
                     System.out.println("Opción no válida");
             }

@@ -21,7 +21,7 @@ public class HabitoController {
                 h.setId(rs.getInt("id_habito"));
                 h.setNombre(rs.getString("nombre_habito"));
                 h.setDescripcion(rs.getString("objetivo"));
-                h.setFrecuenciaSemanala(0); // Columna no presente en la captura actual
+                h.setFrecuenciaSemanala(0);
                 h.setIdUsuario(rs.getInt("id_usuario"));
 
                 lista.add(h);
@@ -47,6 +47,26 @@ public class HabitoController {
 
         } catch (SQLException e) {
             System.err.println("Error al crear hábito: " + e.getMessage());
+        }
+    }
+
+    public void eliminarHabito(int id) {
+        String sql = "DELETE FROM habito WHERE id_habito = ?";
+
+        try (Connection conn = ConectorBBDD.conectar();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setInt(1, id);
+            int filasAfectadas = ps.executeUpdate();
+
+            if (filasAfectadas > 0) {
+                System.out.println("Hábito con ID " + id + " eliminado correctamente.");
+            } else {
+                System.out.println("No se encontró ningún hábito con ese ID.");
+            }
+
+        } catch (SQLException e) {
+            System.err.println("Error al eliminar: " + e.getMessage());
         }
     }
 }
