@@ -32,6 +32,31 @@ public class HabitoController {
         return lista;
     }
 
+    public List<Habito> obtenerPorUsuario(int idUsuario) {
+        List<Habito> lista = new ArrayList<>();
+        String sql = "SELECT * FROM habito WHERE id_usuario = ?";
+
+        try (Connection conn = ConectorBBDD.conectar();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setInt(1, idUsuario);
+            ResultSet rs = ps.executeQuery();
+
+            while (rs.next()) {
+                Habito h = new Habito();
+                h.setId(rs.getInt("id_habito"));
+                h.setNombre(rs.getString("nombre_habito"));
+                h.setDescripcion(rs.getString("objetivo"));
+                h.setFrecuenciaSemanala(0);
+                h.setIdUsuario(rs.getInt("id_usuario"));
+                lista.add(h);
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al filtrar hábitos: " + e.getMessage());
+        }
+        return lista;
+    }
+
     public void crearHabito(Habito h) {
         String sql = "INSERT INTO habito (nombre_habito, objetivo, id_usuario) VALUES (?, ?, ?)";
 

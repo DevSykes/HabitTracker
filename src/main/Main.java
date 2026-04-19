@@ -2,7 +2,7 @@ package main;
 
 import conector.ConectorBBDD;
 import java.util.Scanner;
-
+import java.util.List;
 import controller.HabitoController;
 import controller.UsuarioController;
 import model.Habito;
@@ -39,9 +39,18 @@ public class Main {
                     break;
                 case "2":
                     System.out.println("Listado de hábitos:");
-                    HabitoController habitoController = new HabitoController();
-                    for (Habito h : habitoController.obtenerTodos()) {
-                        System.out.println(h);
+                    System.out.print("Introduce tu ID de usuario para ver tus hábitos: ");
+                    int idUserBusqueda = Integer.parseInt(sc.nextLine());
+
+                    HabitoController hcFiltro = new HabitoController();
+                    List<Habito> misHabitos = hcFiltro.obtenerPorUsuario(idUserBusqueda);
+
+                    if (misHabitos.isEmpty()) {
+                        System.out.println("Este usuario aún no tiene hábitos registrados.");
+                    } else {
+                        for (Habito h : misHabitos) {
+                            System.out.println(h);
+                        }
                     }
                     break;
                 case "3":
