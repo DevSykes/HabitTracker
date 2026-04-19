@@ -9,7 +9,8 @@ public class Habito {
     private int idUsuario;
 
     // Constructor
-    public Habito() {}
+    public Habito() {
+    }
 
     // nuevos hábitos
     public Habito(String nombre, String descripcion, int frecuenciaSemanala, int idUsuario) {
@@ -20,20 +21,45 @@ public class Habito {
     }
 
     // Getters y Setters
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    public int getId() {
+        return id;
+    }
 
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public String getNombre() {
+        return nombre;
+    }
 
-    public int getFrecuenciaSemanala() { return frecuenciaSemanal; }
-    public void setFrecuenciaSemanala(int frecuenciaSemanala) { this.frecuenciaSemanal = frecuenciaSemanala; }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-    public int getIdUsuario() { return idUsuario; }
-    public void setIdUsuario(int idUsuario) { this.idUsuario = idUsuario; }
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public int getFrecuenciaSemanala() {
+        return frecuenciaSemanal;
+    }
+
+    public void setFrecuenciaSemanala(int frecuenciaSemanala) {
+        this.frecuenciaSemanal = frecuenciaSemanala;
+    }
+
+    public int getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(int idUsuario) {
+        this.idUsuario = idUsuario;
+    }
 
     // datos en consola
     @Override

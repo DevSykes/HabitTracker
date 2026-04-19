@@ -19,6 +19,7 @@ public class ConectorBBDD {
         }
         return conexion;
     }
+
     // cerrar la conexión
     public static void cerrarConexion(Connection conexion) {
         if (conexion != null) {
