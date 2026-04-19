@@ -15,7 +15,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-
 -- Base de datos: `gestor_habitos`
 
 -- Estructura de tabla para la tabla `habito`
@@ -28,7 +27,6 @@ CREATE TABLE `habito` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Volcado de datos para la tabla `habito`
-
 
 INSERT INTO `habito` (`id_habito`, `nombre_habito`, `objetivo`, `id_usuario`) VALUES
 (0, 'Estudiar Bases de Datos', '30 minutos', 0),
@@ -47,7 +45,6 @@ CREATE TABLE `registro` (
 
 -- Estructura de tabla para la tabla `usuario`
 
-
 CREATE TABLE `usuario` (
   `id_usuario` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
@@ -57,13 +54,11 @@ CREATE TABLE `usuario` (
 
 -- Volcado de datos para la tabla `usuario`
 
-
 INSERT INTO `usuario` (`id_usuario`, `nombre`, `email`, `password`) VALUES
 (0, 'Sara', 'sara@mail.com', '1234'),
 (1, 'Oliver', 'oliver@mail.com', '1234'),
 (2, 'Sabrina', 'sabrina@mail.com', '1234'),
 (3, 'Harry', 'harry@mail.com', '1234');
-
 
 -- Índices para tablas volcadas
 
@@ -73,13 +68,11 @@ ALTER TABLE `habito`
   ADD PRIMARY KEY (`id_habito`),
   ADD KEY `id_usuario` (`id_usuario`);
 
-
 -- Indices de la tabla `registro`
 
 ALTER TABLE `registro`
   ADD PRIMARY KEY (`id_registro`),
   ADD KEY `id_habito` (`id_habito`);
-
 
 -- Indices de la tabla `usuario`
 
@@ -87,10 +80,10 @@ ALTER TABLE `usuario`
   ADD PRIMARY KEY (`id_usuario`),
   ADD UNIQUE KEY `email` (`email`);
 
-
 -- Restricciones para tablas volcadas
 
 -- Filtros para la tabla `habito`
+
 ALTER TABLE `habito`
   ADD CONSTRAINT `habito_ibfk_1` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE;
 
