@@ -1,9 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
---
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-04-2026 a las 20:38:27
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -17,15 +15,10 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
+
 -- Base de datos: `gestor_habitos`
---
 
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `habito`
---
 
 CREATE TABLE `habito` (
   `id_habito` int(11) NOT NULL,
@@ -34,9 +27,8 @@ CREATE TABLE `habito` (
   `id_usuario` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
 -- Volcado de datos para la tabla `habito`
---
+
 
 INSERT INTO `habito` (`id_habito`, `nombre_habito`, `objetivo`, `id_usuario`) VALUES
 (0, 'Estudiar Bases de Datos', '30 minutos', 0),
@@ -44,11 +36,7 @@ INSERT INTO `habito` (`id_habito`, `nombre_habito`, `objetivo`, `id_usuario`) VA
 (2, 'Beber agua', '2 litros', 2),
 (3, 'Leer', '10 páginas', 3);
 
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `registro`
---
 
 CREATE TABLE `registro` (
   `id_registro` int(11) NOT NULL,
@@ -57,11 +45,8 @@ CREATE TABLE `registro` (
   `id_habito` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `usuario`
---
+
 
 CREATE TABLE `usuario` (
   `id_usuario` int(11) NOT NULL,
@@ -70,9 +55,8 @@ CREATE TABLE `usuario` (
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
 -- Volcado de datos para la tabla `usuario`
---
+
 
 INSERT INTO `usuario` (`id_usuario`, `nombre`, `email`, `password`) VALUES
 (0, 'Sara', 'sara@mail.com', '1234'),
@@ -80,44 +64,39 @@ INSERT INTO `usuario` (`id_usuario`, `nombre`, `email`, `password`) VALUES
 (2, 'Sabrina', 'sabrina@mail.com', '1234'),
 (3, 'Harry', 'harry@mail.com', '1234');
 
---
--- Índices para tablas volcadas
---
 
---
+-- Índices para tablas volcadas
+
 -- Indices de la tabla `habito`
---
+
 ALTER TABLE `habito`
   ADD PRIMARY KEY (`id_habito`),
   ADD KEY `id_usuario` (`id_usuario`);
 
---
+
 -- Indices de la tabla `registro`
---
+
 ALTER TABLE `registro`
   ADD PRIMARY KEY (`id_registro`),
   ADD KEY `id_habito` (`id_habito`);
 
---
+
 -- Indices de la tabla `usuario`
---
+
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`id_usuario`),
   ADD UNIQUE KEY `email` (`email`);
 
---
--- Restricciones para tablas volcadas
---
 
---
+-- Restricciones para tablas volcadas
+
 -- Filtros para la tabla `habito`
---
 ALTER TABLE `habito`
   ADD CONSTRAINT `habito_ibfk_1` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE;
 
---
+
 -- Filtros para la tabla `registro`
---
+
 ALTER TABLE `registro`
   ADD CONSTRAINT `registro_ibfk_1` FOREIGN KEY (`id_habito`) REFERENCES `habito` (`id_habito`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
