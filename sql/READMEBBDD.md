@@ -1,7 +1,5 @@
 # Diseño de la Base de Datos
 
-Este es el esquema que define cómo se guardan los datos de los usuarios y sus hábitos.
-
 ## 1. Diagramas del Proyecto
 A continuación se muestran los diseños visuales de la base de datos:
 ### Diagrama Entidad-Relación (E/R)
