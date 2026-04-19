@@ -1,20 +1,20 @@
-# Diseño de la Base de Datos
+# Diseño de la base de datos
 
-## 1. Diagramas del Proyecto
-A continuación se muestran los diseños visuales de la base de datos:
+> **Estado:** 100% Integrado con Java mediante JDBC.
+
+## 1. Diseño Conceptual y Lógico
+He diseñado la base de datos buscando la máxima eficiencia y evitando la redundancia de datos.
+
 ### Diagrama Entidad-Relación (E/R)
 ![Diagrama ER](diagrama_ER.png)
 
-### Modelo Relacional (Esquema lógico)
+### Modelo Relacional
 ![Modelo Relacional](modelo_relacional.png)
 
----
+## 2. Implementación Técnica
+* **Motor de almacenamiento:** InnoDB (para soportar claves foráneas).
+* **Integridad:** Se ha aplicado `ON DELETE CASCADE` para asegurar que al borrar un usuario, se limpien sus hábitos automáticamente.
 
-## 2. Descripción de Tablas
-Aquí detallamos las tablas y sus claves (PK = Clave Primaria, FK = Clave Foránea):
-
-*   **USUARIO** (**id_usuario**, nombre, email, password)
-*   **HÁBITO** (**id_habito**, nombre_habito, objetivo, *id_usuario*)
-*   **REGISTRO** (**id_registro**, fecha, estado, *id_habito*)
-
-> **Nota:** La relación entre Usuario y Hábito es de 1 a muchos (1:N), ya que un usuario puede tener varios hábitos.
+## 3. Scripts SQL de Entrega
+* 📄 [**Script de Creación y Datos**](./gestor_habitos.sql): Contiene el DDL (tablas) y DML (datos de prueba).
+* 📄 [**Script de Consultas**](./consultas.sql): Listado de las queries principales utilizadas en la lógica del programa.
