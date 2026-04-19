@@ -12,7 +12,6 @@ public class ConectorBBDD {
     public static Connection conectar() {
         Connection conexion = null;
         try {
-            // Esto es lo que usa el .jar que acabamos de añadir
             conexion = DriverManager.getConnection(URL, USER, PASSWORD);
             System.out.println("Conectado a la base de datos de Hábitos");
         } catch (SQLException e) {

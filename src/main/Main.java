@@ -61,7 +61,7 @@ public class Main {
                     System.out.print("Objetivo: ");
                     String obj = sc.nextLine();
 
-                    System.out.print("ID de usuario (0, 1, 2...): ");
+                    System.out.print("ID de usuario (0, 1...): ");
                     int idUser = Integer.parseInt(sc.nextLine());
 
                     Habito nuevo = new Habito();
