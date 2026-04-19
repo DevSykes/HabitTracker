@@ -3,7 +3,7 @@
 > **Estado:** 100% Integrado con Java mediante JDBC.
 
 ## 1. Diseño Conceptual y Lógico
-He diseñado la base de datos buscando la máxima eficiencia y evitando la redundancia de datos.
+Se ha diseñado la base de datos buscando la máxima eficiencia y evitando la redundancia de datos.
 
 ### Diagrama Entidad-Relación (E/R)
 ![Diagrama ER](./img/diagrama_ER.png)
