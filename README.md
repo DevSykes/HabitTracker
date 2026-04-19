@@ -14,7 +14,7 @@ HabitTracker es una aplicación diseñada para ayudar a los usuarios a monitoriz
 Para facilitar la corrección, he organizado la documentación específica por módulos:
 
 * **[Bases de Datos](./sql)**: Aquí encontrarás el script `.sql`, el modelo E/R y las consultas.
-* **[Programación](./src)**: Estructura del código Java, paquetes y lógica MVC.
+* **[Programación y MPO](./src)**: Estructura del código Java, paquetes y lógica MVC.
 * **[Entornos de Desarrollo](./)**: Gestión de Git y estructura del proyecto.
 
 [WIP, este README se irá rellenando a medida que avance el trabajo]
