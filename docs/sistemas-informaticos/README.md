@@ -1,4 +1,4 @@
-# Memoria Técnica: Sistemas Informáticos
+# Sistemas Informáticos
 
 En este apartado explico qué necesita un ordenador para que mi aplicación funcione bien y cómo hay que instalarlo todo.
 
