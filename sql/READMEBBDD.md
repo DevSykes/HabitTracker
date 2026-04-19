@@ -6,10 +6,10 @@
 He diseñado la base de datos buscando la máxima eficiencia y evitando la redundancia de datos.
 
 ### Diagrama Entidad-Relación (E/R)
-![Diagrama ER](diagrama_ER.png)
+![Diagrama ER](./img/diagrama_ER.png)
 
 ### Modelo Relacional
-![Modelo Relacional](modelo_relacional.png)
+![Modelo Relacional](./img/modelo_relacional.png)
 
 ## 2. Implementación Técnica
 * **Motor de almacenamiento:** InnoDB (para soportar claves foráneas).
