@@ -1,1 +1,43 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="configuracion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="metadatos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="proyecto" type="xs:string"/>
+              <xs:element name="version" type="xs:string"/>
+              <xs:element name="descripcion" type="xs:string"/>
+              <xs:element name="tecnologias">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="item" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="conexion_bbdd">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="servidor" type="xs:string"/>
+              <xs:element name="puerto" type="xs:integer"/>
+              <xs:element name="usuario" type="xs:string"/>
+              <xs:element name="base_datos" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="preferencias_app">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idioma" type="xs:string"/>
+              <xs:element name="tema" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
