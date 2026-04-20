@@ -11,4 +11,4 @@ He creado un sistema de configuración externo para que el programa no tenga los
 ## 2. Evidencia de validación
 A continuación, se muestra una captura de pantalla que confirma que el archivo `config.xml` es válido y cumple con las reglas del `esquema.xsd`:
 
-![Validación XML](validacion.png) (No funciona todavía)
+![Validación XML](img/validacion_xml.png) 
