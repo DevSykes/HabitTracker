@@ -11,7 +11,7 @@ HabitTracker es una aplicación diseñada para ayudar a los usuarios a monitoriz
 * **Itinerario personal para la empleabilidad:** 
 
 ## Guía para Profesores
-Para facilitar la corrección, he organizado la documentación específica por módulos:
+Para facilitar la corrección, he organizado la documentación específica por módulos y añadido enlaces para un mejor acceso.
 
 * **[Bases de Datos](./sql)**: Aquí encontrarás el script `.sql`, el modelo E/R y las consultas.
 * **[Programación y MPO](./src)**: Estructura del código Java, paquetes y lógica MVC.
