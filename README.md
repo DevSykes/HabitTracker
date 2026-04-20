@@ -16,6 +16,7 @@ Para facilitar la corrección, he organizado la documentación específica por m
 * **[Bases de Datos](./sql)**: Aquí encontrarás el script `.sql`, el modelo E/R y las consultas.
 * **[Programación y MPO](./src)**: Estructura del código Java, paquetes y lógica MVC.
 * **[Entornos de Desarrollo](./)**: Gestión de Git y estructura del proyecto.
+* **[Sistemas Informáticos](./sistemas-informaticos)**: Aquí encontrarás el script `.sql`, el modelo E/R y las consultas.
 
 [WIP, este README se irá rellenando a medida que avance el trabajo]
 ---
