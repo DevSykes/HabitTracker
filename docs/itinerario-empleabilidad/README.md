@@ -22,6 +22,11 @@ He investigado 3 empresas del sector tecnológico donde me gustaría trabajar en
 ## 3. Presentación Profesional del Proyecto
 
 ## 4. Reflexión y Autoevaluación
+El desarrollo de HabitTracker ha sido mi primer contacto real con la integración de múltiples tecnologías. 
+
+* **Lo más satisfactorio:** Ver cómo un hobby que tengo desde los 10 años se convierte en una estructura profesional. He disfrutado mucho diseñando la base de datos y conectándola con Java.
+* **El mayor reto:** Aprender a documentar correctamente. A veces, como desarrolladores, queremos solo escribir código, pero este proyecto me ha enseñado que la documentación (Markdown, XML/XSD) es lo que hace que un proyecto sea profesional y escalable. También es cierto que me huiese gustado hacer algo más grande y gratificante, pero por la falta de tiempo y los examenes cerca, he tenido que recurrir a algo más simple.
+* **Futuro:** Mi objetivo tras este curso es seguir profundizando en la seguridad del código, mejorar mi lógicoa y forma de documentar y empezar a crear interfaces web para mis aplicaciones.
 
 ## 5. Próximos Pasos (Portfolio)
 
