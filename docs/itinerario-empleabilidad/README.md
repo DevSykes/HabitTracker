@@ -13,10 +13,17 @@ estudiar esto, llevo desde muy pequeña teniéndolo como hobby y siempre quise d
 ## 2. Exploración del Sector Profesional
 He investigado 3 empresas del sector tecnológico donde me gustaría trabajar en el futuro:
 
-[WORK IN PROGRESS] 
+1.  **Indra:** Empresa tecnológica española con proyectos en desarrollo de software y ciberseguridad. Me interesa porque combina el trabajo Full-Stack con sistemas grandes y reales, donde podría mejorar mis habilidades en programación y aprender más sobre seguridad informática.
+
+2.  **Plain Concepts:** Empresa española especializada en desarrollo de software y soluciones digitales innovadoras. Trabajan en proyectos Full-Stack, inteligencia artificial y cloud, utilizando tecnologías modernas y bases de datos avanzadas. Me interesa porque me permitiría mejorar como desarrolladora, aprender nuevas herramientas y participar en proyectos reales y actuales.
+
+3.  **S21sec:** Empresa especializada en ciberseguridad, centrada en proteger sistemas y detectar amenazas. Me interesa especialmente porque quiero orientar mi carrera hacia la seguridad informática, y aquí podría aplicar conocimientos de programación y aprender a analizar vulnerabilidades en entornos reales.
 
 ## 3. Presentación Profesional del Proyecto
 
 ## 4. Reflexión y Autoevaluación
 
 ## 5. Próximos Pasos (Portfolio)
+
+
+[WORK IN PROGRESS] 
