@@ -1,4 +1,4 @@
-# Entornos de Desarrollo - Gestión del Proyecto Intermodukar: HabitTracker
+# Entornos de Desarrollo - Gestión del Proyecto Intermodular: HabitTracker
 
 Este apartado detalla las herramientas y metodologías utilizadas para el control de versiones y la organización del ciclo de vida del proyecto.
 
@@ -7,3 +7,14 @@ Para este proyecto se ha utilizado **Git** como sistema de control de versiones 
 
 * **Estrategia de Commits:** He seguido una nomenclatura clara en los mensajes de commit para facilitar el seguimiento de los cambios (ej. `feat:`, `docs:`).
 * **Gestión de ramas:** El desarrollo principal se ha centralizado en la rama `main`, asegurando que cada subida represente un avance estable en la documentación o el código.
+
+## 2. Estructura del Proyecto
+El proyecto está organizado de forma modular para cumplir con los requisitos de todas las asignaturas del intermodular:
+
+* `/src`: Código fuente en Java (Programación y MPO).
+* `/sql`: Scripts de creación y consultas de la base de datos (BBDD).
+* `/docs`: Documentación técnica y específica de cada módulo.
+    * `/docs/sistemas-informaticos`: Requisitos y hardware.
+    * `/docs/lenguaje-de-marcas`: Archivos XML y validación XSD.
+    * `/docs/itp`: Perfil profesional y empleabilidad.
+    * `/docs/entornos-desarrollo`: Documentación sobre estrategia de trabajo y organización
