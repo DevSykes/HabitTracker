@@ -18,3 +18,9 @@ El proyecto está organizado de forma modular para cumplir con los requisitos de
     * `/docs/lenguaje-de-marcas`: Archivos XML y validación XSD.
     * `/docs/itp`: Perfil profesional y empleabilidad.
     * `/docs/entornos-desarrollo`: Documentación sobre estrategia de trabajo y organización
+
+## 3. Automatización y Herramientas
+* **IDE:** Se ha utilizado IntelliJ IDEA para el desarrollo de la lógica en Java.
+* * **Diseño de Diagramas:** Se ha utilizado draw.io para la creación de los diagramas Entidad/Relación y esquemas de arquitectura, permitiendo una representación visual clara de la estructura de datos.
+* **Gestión de Base de Datos:** Uso de MySQL para el diseño del modelo E/R y la ejecución de scripts.
+* **Documentación:** Uso de lenguaje **Markdown** para asegurar que toda la documentación sea legible directamente desde el repositorio de GitHub.
