@@ -24,3 +24,9 @@ El proyecto está organizado de forma modular para cumplir con los requisitos de
 * * **Diseño de Diagramas:** Se ha utilizado draw.io para la creación de los diagramas Entidad/Relación y esquemas de arquitectura, permitiendo una representación visual clara de la estructura de datos.
 * **Gestión de Base de Datos:** Uso de MySQL para el diseño del modelo E/R y la ejecución de scripts.
 * **Documentación:** Uso de lenguaje **Markdown** para asegurar que toda la documentación sea legible directamente desde el repositorio de GitHub.
+
+## 4. Refactorización y Calidad
+Durante el desarrollo, me he centrado en mantener un código limpio:
+* Uso de nombres de variables descriptivos.
+* Aplicación del patrón **MVC** para separar responsabilidades.
+* Revisión constante de la estructura de carpetas para asegurar la escalabilidad del proyecto.
