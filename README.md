@@ -19,6 +19,6 @@ Para facilitar la corrección, he organizado la documentación específica por m
 * **Sistemas Informáticos:** Documentación de entorno.
 * **Entornos de Desarrollo:** Gestión con Git/GitHub y flujo de trabajo profesional.
 * **Itinerario personal para la empleabilidad:** Documentación sobre perfil profesional y reflexiones finales.
-* 
+  
 ---
 **Autor:** S.Z.
