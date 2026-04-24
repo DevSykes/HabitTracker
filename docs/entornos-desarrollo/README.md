@@ -39,4 +39,4 @@ Para este proyecto se ha utilizado **Git** como sistema de control de versiones 
 
 ## 7. Evidencias de Funcionamiento
 
-![Ejecución](./docs/imagenes/funcionamiento.png)
+![Ejecución](/docs/imagenes/funcionamiento.png)
