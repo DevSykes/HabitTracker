@@ -2,15 +2,20 @@
 
 HabitTracker es una aplicación diseñada para ayudar a los usuarios a monitorizar y mantener sus rutinas diarias. Este proyecto forma parte del Proyecto Intermodular de 1º de DAM.
 
-## Guía para Profesores
-Para facilitar la corrección, he organizado la documentación específica por módulos y añadido enlaces para un mejor acceso.
+## Guía de navegación para profesores
 
-* **[Bases de Datos](./sql)**: Aquí encontrarás el script `.sql`, el modelo E/R y las consultas.
-* **[Programación y MPO](./src)**: Estructura del código Java, paquetes y lógica MVC.
-* **[Entornos de Desarrollo](./)**: Gestión de Git y estructura del proyecto.
-* **[Sistemas Informáticos](./docs/sistemas-informaticos)**: En este apartado se encuentraN las especificaciones y más detalles de la asignatura.
-* **[Lenguaje de Marcas](./config)**: Documentación sobre el uso de XML para configuración y su [validación mediante XSD.](./docs/lenguaje-de-marcas)
-* **[ITP (Itinerario Técnico Profesional)](./docs/itinerario-empleabilidad)**: Perfil profesional, análisis del sector y reflexión sobre el desarrollo del proyecto.
+Para facilitar la evaluación, he organizado la estructura del proyecto en la siguiente tabla. Haz clic en los enlaces de la última columna para navegar directamente a las carpetas correspondientes.
+
+| Módulo / Asignatura | Documentación y Recursos | Acceso Directo |
+| :--- | :--- | :---: |
+| **Bases de Datos** | Scripts `.sql`, Modelo E/R y repositorio de consultas. | [📂 Ir a /sql](./sql) |
+| **Programación y MPO** | Estructura de código Java, organización de paquetes y lógica MVC. | [📂 Ir a /src](./src) |
+| **Entornos de Desarrollo** | Historial de versiones, gestión de Git y estructura raíz. | [📂 Ver README](./docs/entornos-desarrollo) |
+| **Sistemas Informáticos** | Especificaciones técnicas, requisitos y detalles del sistema. | [📂 Ver docs](./docs/sistemas-informaticos) |
+| **Lenguaje de Marcas** | Archivos XML y su [validación XSD](./docs/lenguaje-de-marcas). | [📂 Ir a /config](./config) |
+| **ITP (Itinerario)** | Perfil profesional, análisis de sector y memoria final. | [📂 Ver perfil](./docs/itinerario-empleabilidad) |
+
+> **Nota:** Todos los enlaces son relativos al repositorio, por lo que funcionan correctamente al navegar desde GitHub.
 
 ## Módulos Integrados
 * **Programación / MPO:** Lógica en Java (JDK 21+) y JDBC.
