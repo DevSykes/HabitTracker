@@ -1,46 +1,40 @@
-# Itinerario Personal para la Empleabilidad
+# Itinerario Personal para la Empleabilidad (1709)
 
-Este apartado documenta mi identidad profesional y la proyección de mi carrera como desarrolladora a través de este proyecto intermodular llamado HabitTracker.
+Este apartado documenta mi identidad profesional y la proyección de mi carrera como desarrolladora a través del proyecto **HabitTracker**.
 
 ## 1. Perfil Profesional Personal
-Actualmente soy estudiante de 1º de DAM. Aunque no he tenido la oportunidad hasta ahora de
-estudiar esto, llevo desde muy pequeña teniéndolo como hobby y siempre quise dedicarme a esto. Hacía scripts en videojuegos y creaba proyectos simples desde los 10 años utilizando solo la información que encontraba por internet.
+Actualmente soy estudiante de 1º de DAM. Aunque esta es mi formación oficial inicial, la programación ha sido mi pasión desde los 10 años. De manera autodidacta, comencé creando scripts para videojuegos y pequeños proyectos lógicos utilizando recursos de internet, lo que me ha dado una base sólida de resolución de problemas y una vocación clara por la tecnología.
 
-* **Tecnologías actuales:** Java, MySQL, XML y Markdown.
-  
-* **Interés futuro:** Me gustaría especializarme en Full Stack, ya que disfruto uniendo la lógica del backend con el diseño de interfaces (UI/UX), área en la que también me he formado de manera autodidacta. Además, tengo un gran interés por la ciberseguridad; considero que es un pilar fundamental en la actualidad y es una disciplina que admiro desde pequeña.
+* **Tecnologías actuales:** Java, MySQL (MariaDB), XML y Markdown.
+* **Interés futuro:** Mi objetivo es especializarme como **Desarrolladora Full Stack**. Disfruto uniendo la lógica compleja del backend con el diseño de interfaces (UI/UX). Además, tengo un gran interés por la **Ciberseguridad**, considerándola un pilar fundamental en cualquier desarrollo moderno.
 
 ## 2. Exploración del Sector Profesional
-He investigado 3 empresas del sector tecnológico donde me gustaría trabajar en el futuro:
+He investigado tres empresas de referencia donde me gustaría proyectar mi carrera:
 
-1.  **Indra:** Empresa tecnológica española con proyectos en desarrollo de software y ciberseguridad. Me interesa porque combina el trabajo Full-Stack con sistemas grandes y reales, donde podría mejorar mis habilidades en programación y aprender más sobre seguridad informática.
+1. **Indra:** Referente en proyectos de gran escala y ciberseguridad. Me interesa por su capacidad de combinar desarrollo Full Stack en entornos críticos.
+2. **Plain Concepts:** Destaca por su innovación tecnológica y el uso de herramientas modernas en Cloud e IA, lo cual encaja con mi deseo de aprendizaje continuo.
+3. **S21sec:** Líder en ciberseguridad pura. Sería el lugar ideal para profundizar en el análisis de vulnerabilidades y la protección de sistemas.
 
-2.  **Plain Concepts:** Empresa española especializada en desarrollo de software y soluciones digitales innovadoras. Trabajan en proyectos Full-Stack, inteligencia artificial y cloud, utilizando tecnologías modernas y bases de datos avanzadas. Me interesa porque me permitiría mejorar como desarrolladora, aprender nuevas herramientas y participar en proyectos reales y actuales.
-
-3.  **S21sec:** Empresa especializada en ciberseguridad, centrada en proteger sistemas y detectar amenazas. Me interesa especialmente porque quiero orientar mi carrera hacia la seguridad informática, y aquí podría aplicar conocimientos de programación y aprender a analizar vulnerabilidades en entornos reales.
+### Profesionales de Referencia
+* **Chema Alonso:** Por su trayectoria en seguridad y su capacidad para liderar la innovación tecnológica en España.
+* **Miguel Ángel Durán (Midudev):** Por su enfoque en el ecosistema Full Stack y la importancia de las buenas prácticas en el desarrollo de software moderno.
 
 ## 3. Presentación Profesional del Proyecto
-HabitTracker es una solución de gestión de hábitos diseñada para ayudar a las personas a organizar su rutina diaria de manera eficiente.
+**HabitTracker** es una solución de gestión de hábitos diseñada para optimizar la organización de la rutina diaria.
 
-Problema que resuelve: La dificultad de mantener la constancia en nuevas actividades por falta de un registro estructurado.
-
-Tecnologías aplicadas: He desarrollado la lógica en Java bajo un patrón organizado, utilizando MySQL para la persistencia de datos y XML/XSD para gestionar la configuración externa del sistema de forma segura y validada.
-
-Valor añadido: A diferencia de un proyecto simple, HabitTracker separa los datos de la configuración, siguiendo estándares reales de la industria para que sea fácil de mantener y escalar.
+* **Problema que resuelve:** La dificultad de mantener la constancia en nuevas actividades debido a la ausencia de un registro estructurado y visual de los progresos.
+* **Tecnologías aplicadas:** Lógica de negocio desarrollada en **Java 17**, persistencia de datos con **MySQL** mediante JDBC y gestión de configuración externa mediante **XML/XSD**.
+* **Valor añadido:** Se ha desarrollado bajo el concepto de **MVP (Producto Mínimo Viable)** sólido, priorizando una arquitectura limpia y la separación de datos y configuración, facilitando su escalabilidad futura.
 
 ## 4. Reflexión y Autoevaluación
-El desarrollo de HabitTracker ha sido mi primer contacto real con la integración de múltiples tecnologías. 
+Este proyecto ha sido el puente entre mi hobby de la infancia y mi futuro profesional.
 
-* **Lo más satisfactorio:** Ver cómo un hobby que tengo desde los 10 años se convierte en una estructura profesional. He disfrutado mucho diseñando la base de datos y conectándola con Java.
-* **El mayor reto:** Aprender a documentar correctamente. A veces, como desarrolladores, queremos solo escribir código, pero este proyecto me ha enseñado que la documentación (Markdown, XML/XSD) es lo que hace que un proyecto sea profesional y escalable. También es cierto que me hubiese gustado hacer algo más grande y gratificante, pero por la falta de tiempo y los examenes cerca, he tenido que recurrir a algo más simple.
-* **Futuro:** Mi objetivo tras este curso es seguir profundizando en la seguridad del código, mejorar mi lógica y forma de documentar y empezar a crear interfaces web para mis aplicaciones.
+* **Lo más satisfactorio:** Transformar la curiosidad que tenía a los 10 años en una estructura de código profesional y ver cómo la base de datos responde correctamente a la lógica de Java.
+* **El mayor reto:** La importancia de la **documentación técnica**. He aprendido que un buen código no es suficiente si no está respaldado por archivos Markdown y validaciones XML/XSD que lo hagan comprensible y seguro.
+* **Futuro:** Tras este MVP, mi objetivo es implementar una interfaz gráfica (UI) más avanzada y profundizar en la seguridad del código para evitar vulnerabilidades.
 
-## 5. Próximos Pasos (Portfolio)
-Este repositorio en GitHub constituye la base de mi portfolio profesional como desarrolladora. Para cumplir con los estándares de calidad del sector, he estructurado el proyecto de la siguiente manera:
-
-* **Documentación Técnica:** He incluido archivos README detallados en cada módulo para facilitar la comprensión del sistema.
-* **Demostración Visual:** Se pueden encontrar capturas de pantalla de la base de datos y de la validación XML en sus respectivas carpetas de documentación.
-* **Código Fuente:** El código está organizado siguiendo el patrón MVC, lo que demuestra mi capacidad para escribir software estructurado y escalable.
-
-### Aprendizaje clave
-A través de este proyecto, no solo he aprendido a programar, sino a comunicar mis decisiones técnicas. He entendido que un buen desarrollador no es solo el que escribe código, sino el que sabe documentar y presentar su trabajo para que otros puedan colaborar o utilizar su software.
+## 5. Portfolio
+Este repositorio constituye la base de mi portfolio técnico:
+* **Documentación:** READMEs detallados que explican la instalación y requisitos de cada módulo.
+* **Evidencias:** Capturas de funcionamiento y validación de esquemas en la carpeta `/docs/imagenes`.
+* **Calidad de Código:** Organización orientada a la mantenibilidad y estándares de la industria (JDBC, MVC simple).
