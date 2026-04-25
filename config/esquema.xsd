@@ -7,7 +7,13 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="proyecto" type="xs:string"/>
-              <xs:element name="version" type="xs:string"/>
+              <xs:element name="version">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9]+\.[0-9]+"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
               <xs:element name="descripcion" type="xs:string"/>
               <xs:element name="tecnologias">
                 <xs:complexType>
@@ -19,21 +25,44 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        
         <xs:element name="conexion_bbdd">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="servidor" type="xs:string"/>
-              <xs:element name="puerto" type="xs:integer"/>
+              <xs:element name="puerto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="1"/>
+                    <xs:maxInclusive value="65535"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
               <xs:element name="usuario" type="xs:string"/>
               <xs:element name="base_datos" type="xs:string"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        
         <xs:element name="preferencias_app">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="idioma" type="xs:string"/>
-              <xs:element name="tema" type="xs:string"/>
+              <xs:element name="idioma">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="es"/>
+                    <xs:enumeration value="en"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tema">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="claro"/>
+                    <xs:enumeration value="oscuro"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
