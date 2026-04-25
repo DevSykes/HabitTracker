@@ -1,42 +1,45 @@
-# Sistemas Informáticos
+# Gestor de Hábitos - Proyecto Intermodular
 
-En este apartado explico qué necesita un ordenador para que mi aplicación funcione bien y cómo hay que instalarlo todo.
+## Descripción
+Esta aplicación permite realizar un seguimiento personalizado de hábitos diarios, permitiendo a los usuarios registrar, visualizar y gestionar sus progresos.
+El proyecto integra el desarrollo de software en Java con una base de datos relacional MariaDB.
 
-## Entorno de Ejecución
+## Requisitos del Sistema
+Para el correcto funcionamiento de la aplicación, se recomienda el siguiente entorno:
 
-La aplicación ha sido desarrollada y probada bajo el siguiente entorno:
-
-* **Sistema Operativo:** Windows 11 (Funciona en Windows 10 también).
-* **Tipo de sistema:** 64 bits (x64).
-* **Servidor para la base de datos:** XAMPP (versión 3.3.0).
-* **Motor de Base de Datos:** MariaDB (MySQL Service).
-* **Versión de Java:** Java 17 o superior.
-
-## Requisitos de Hardware
-
-Para asegurar la fluidez del sistema y el servidor de base de datos, se recomienda:
-
+### Hardware
 * **Procesador:** 2.0 GHz o superior.
 * **Memoria RAM:** 4 GB (Mínimo 2 GB libres para XAMPP + JVM).
-* **Almacenamiento:** 200 MB libres son suficientes para guardar el programa y los datos de los hábitos.
+* **Almacenamiento:** 200 MB de espacio libre.
 
-## Guía de Instalación y Configuración
+### Software y Entorno de Ejecución
+* **Sistema Operativo:** Windows 10/11 (64 bits).
+* **Java:** JDK 17 o superior.
+* **Servidor de Base de Datos:** XAMPP (v3.3.0) con servicio MariaDB/MySQL activo.
+* **Conector:** `mysql-connector-j-8.x` (JDBC).
 
-Para desplegar el sistema correctamente, se deben seguir estos pasos:
+## Instalación y Configuración
+1. **Preparar Base de Datos:**
+   - Iniciar **XAMPP Control Panel** y arrancar el servicio **MySQL** (Puerto 3306).
+   - Acceder a `phpMyAdmin`.
+   - Importar el script `gestor_habitos.sql` ubicado en la carpeta `/sql` del proyecto.
+2. **Configuración de Seguridad y Conexión:**
+   - La aplicación conecta mediante `localhost`.
+   - **Usuario:** `root`
+   - **Contraseña:** (Vacío / Sin contraseña)
+   - **Privilegios:** El usuario `root` debe tener permisos totales (ALL PRIVILEGES) sobre la base de datos para realizar operaciones CRUD.
+3. **Ejecución:**
+   - Asegurarse de que `JAVA_HOME` apunta al JDK 17 en las variables de entorno.
+   - Ejecutar la aplicación desde el IDE o mediante la línea de comandos.
 
-1. **Gestión de Servicios:**
-   - Iniciar **XAMPP Control Panel**.
-   - Arrancar el servicio **MySQL** (Puerto por defecto: 3306).
+## Tecnologías Utilizadas
+* **Lenguaje:** Java 17.
+* **Persistencia:** JDBC (Java Database Connectivity).
+* **Base de Datos:** MariaDB (vía XAMPP).
+* **Control de Versiones:** Git y GitHub.
+
+## Evidencias de Funcionamiento
+![Evidencia de funcionamiento en consola](/docs/imagenes/funcionamiento.png)
+
+1. **Servidor Activo:**
    
-2. **Configuración de Red:**
-   - El sistema conecta mediante `localhost` (127.0.0.1). 
-   - En caso de conflicto de puertos, verificar que ninguna otra instancia de SQL Server o Docker esté ocupando el puerto.
-
-3. **Importación del Esquema:**
-   - Acceder a `phpMyAdmin` y ejecutar el script `gestor_habitos.sql` ubicado en la carpeta `/sql`.
-
-4. **Variables de Entorno:**
-   - Asegurarse de que `JAVA_HOME` apunta correctamente al JDK 17 en las variables de entorno del sistema.
-  
-5. **Mantenimiento y Logs:**
-   - En caso de error en el arranque del servicio, consultar los logs de MySQL desde el botón "Logs" en XAMPP para identificar colisiones de procesos o errores de privilegios.
