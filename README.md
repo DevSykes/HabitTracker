@@ -11,8 +11,8 @@ Para facilitar la evaluación, he organizado la estructura del proyecto en la si
 | **Bases de Datos** | Scripts `.sql`, Modelo E/R y repositorio de consultas. | [📂 Ir a /sql](./sql) |
 | **Programación y MPO** | Estructura de código Java, organización de paquetes y lógica MVC. | [📂 Ir a /src](./src) |
 | **Entornos de Desarrollo** | Historial de versiones, gestión de Git y estructura raíz. | [📂 Ver README](./docs/entornos-desarrollo) |
-| **Sistemas Informáticos** | Especificaciones técnicas, requisitos y detalles del sistema. | [📂 Ver docs](./docs/sistemas-informaticos) |
-| **Lenguaje de Marcas** | Archivos XML y su [validación XSD](./docs/lenguaje-de-marcas). | [📂 Ir a /config](./config) |
+| **Sistemas Informáticos** | Especificaciones técnicas, requisitos y detalles del sistema. | [📂 Ver README](./docs/sistemas-informaticos) |
+| **Lenguaje de Marcas** | Archivos XML y su [validación XSD](./docs/lenguaje-de-marcas). | [📂 Ir a /config](./config) y [📂 README](./docs/lenguaje-de-marcas) |
 | **ITP (Itinerario)** | Perfil profesional, análisis de sector y memoria final. | [📂 Ver perfil](./docs/itinerario-empleabilidad) |
 
 > **Nota:** Todos los enlaces son relativos al repositorio, por lo que funcionan correctamente al navegar desde GitHub.
