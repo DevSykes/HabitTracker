@@ -48,6 +48,6 @@ Para el correcto funcionamiento de la aplicación, se recomienda el siguiente en
 
 ![Evidencia de funcionamiento en consola](/docs/imagenes/xampp.png)
 
-3. **Persistencia:**
+3. **Integridad de los datos:**
 
 ![Evidencia de funcionamiento en consola](/docs/imagenes/sql1.png)
