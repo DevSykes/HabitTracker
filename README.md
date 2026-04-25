@@ -34,5 +34,4 @@ Para ejecutar la aplicación correctamente, sigue estos pasos:
 * **Hardware:** Mínimo 4GB RAM y 100MB de espacio en disco.
 
 ---
-**Autora:** Sara Zarzosa Brea
-*Proyecto Intermodular - DAM 1º*
+**Autora:** Sara Zarzosa Brea.
