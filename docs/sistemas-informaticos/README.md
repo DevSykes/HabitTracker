@@ -38,8 +38,16 @@ Para el correcto funcionamiento de la aplicación, se recomienda el siguiente en
 * **Base de Datos:** MariaDB (vía XAMPP).
 * **Control de Versiones:** Git y GitHub.
 
-## Evidencias de Funcionamiento
+## Evidencias
+
+1. **Funcionamiento en consola**
+
 ![Evidencia de funcionamiento en consola](/docs/imagenes/funcionamiento.png)
 
-1. **Servidor Activo:**
-   
+2. **Servidor Activo:**
+
+![Evidencia de funcionamiento en consola](/docs/imagenes/xampp.png)
+
+3. **Persistencia:**
+
+![Evidencia de funcionamiento en consola](/docs/imagenes/sql1.png)
