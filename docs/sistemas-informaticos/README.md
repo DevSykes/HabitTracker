@@ -26,7 +26,7 @@ Para el correcto funcionamiento de la aplicación, se recomienda el siguiente en
 2. **Configuración de Seguridad y Conexión:**
    - La aplicación conecta mediante `localhost`.
    - **Usuario:** `root`
-   - **Contraseña:** (Vacío / Sin contraseña)
+   - **Contraseña:** (Vacío, sin contraseña)
    - **Privilegios:** El usuario `root` debe tener permisos totales (ALL PRIVILEGES) sobre la base de datos para realizar operaciones CRUD.
 3. **Ejecución:**
    - Asegurarse de que `JAVA_HOME` apunta al JDK 17 en las variables de entorno.
