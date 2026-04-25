@@ -1,4 +1,4 @@
-# HabitTracker - Gestión de Hábitos 
+# HabitTracker - Gestión de Hábitos hecho por Sara Zarzosa Brea
 
 HabitTracker es una aplicación de escritorio diseñada para monitorizar y mantener rutinas diarias. 
 Este proyecto integra los conocimientos técnicos de todos los módulos del **1º curso de DAM**, conectando la lógica de programación con la persistencia de datos y la configuración estructurada.
