@@ -1,4 +1,4 @@
-# Itinerario Personal para la Empleabilidad (1709)
+# Itinerario Personal para la Empleabilidad
 
 Este apartado documenta mi identidad profesional y la proyección de mi carrera como desarrolladora a través del proyecto **HabitTracker**.
 
